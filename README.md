@@ -1,3 +1,5 @@
+# Currently the Extendsion DOESN'T work because it is actibely being worked on! All Contributions are welcome! :)
+
 # 🏆 Blender Achievements Add-on
 
 Currently there is no addon avalible but I'm working on it!
