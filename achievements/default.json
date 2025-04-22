@@ -1,0 +1,170 @@
+[
+  {
+    "id": "render_first",
+    "name": "First Render",
+    "description": "Completed your first render. Oh so many more to come...",
+    "trigger": "render_count",
+    "threshold": 1,
+    "icon": "render_first.png"
+  },
+  {
+    "id": "render_100th",
+    "name": "First Render",
+    "description": "Completed your 100th render. WOOO! Yeah you did it! :)",
+    "trigger": "render_count",
+    "threshold": 100,
+    "icon": "render_first.png"
+  },
+  {
+    "id": "vertex_milestone_1",
+    "name": "Vert Stack I",
+    "description": "Reach 10,000 vertices in a scene. Ha, it's gonna take more than that to make me sweat!",
+    "trigger": "vertex_count",
+    "threshold": 10000,
+    "icon": "vertex_milestone_1.png"
+  },
+  {
+    "id": "vertex_milestone_2",
+    "name": "Vert Stack II",
+    "description": "Reach 100,000 vertices in a scene. Ok noice, maybe decimate your object? It's hot in here...",
+    "trigger": "vertex_count",
+    "threshold": 100000,
+    "icon": "vertex_milestone_2.png"
+  },
+  {
+    "id": "vertex_milestone_3",
+    "name": "Vert Stack III",
+    "description": "Reach 1,000,000 vertices in a scene. I- Is your computer ok?",
+    "trigger": "vertex_count",
+    "threshold": 1000000,
+    "icon": "vertex_milestone_3.png"
+  },
+  {
+    "id": "vertex_milestone_4",
+    "name": "Vert Stack IV",
+    "description": "Reach 10,000,000 vertices in a scene. OK! Haha Very funny... Now please delete it...",
+    "trigger": "vertex_count",
+    "threshold": 10000000,
+    "icon": "vertex_milestone_3.png"
+  },
+  {
+    "id": "vertex_milestone_5",
+    "name": "Vert Stack V",
+    "description": "Reach 100,000,000 vertices in a scene. H- How...",
+    "trigger": "vertex_count",
+    "threshold": 100000000,
+    "icon": "vertex_milestone_3.png"
+  },
+  {
+    "id": "save_project",
+    "name": "Save It!",
+    "description": "Saved your project for the first time. Please don't forget you will regret it...",
+    "trigger": "save_count",
+    "threshold": 1,
+    "icon": "save_project.png"
+  },
+  {
+    "id": "material_applied",
+    "name": "Get Shaded",
+    "description": "Applied a material to an object. Ok thats looking better...",
+    "trigger": "material_applied",
+    "threshold": 1,
+    "icon": "material_applied.png"
+  },
+  {
+    "id": "modifier_used",
+    "name": "Modify This!",
+    "description": "Used any modifier on an object. Ooo, what'cha gonna do now?",
+    "trigger": "modifier_count",
+    "threshold": 1,
+    "icon": "modifier_used.png"
+  },
+  {
+    "id": "object_created",
+    "name": "Objectified",
+    "description": "Created an object in your scene. Noice.",
+    "trigger": "object_created",
+    "threshold": 1,
+    "icon": "object_created.png"
+  },
+  {
+    "id": "collection_made",
+    "name": "Organizer",
+    "description": "Created a new collection. Make sure you keep your collections clean 'kay.",
+    "trigger": "collection_created",
+    "threshold": 1,
+    "icon": "collection_made.png"
+  },
+  {
+    "id": "grease_pencil",
+    "name": "Sketchy Start",
+    "description": "Used grease pencil in a project. Oh we've got a sketcher here!",
+    "trigger": "grease_pencil_used",
+    "threshold": 1,
+    "icon": "grease_pencil.png"
+  },
+  {
+    "id": "animation_keyed",
+    "name": "Keyed Up",
+    "description": "Inserted your first keyframe. Wow Animations!",
+    "trigger": "keyframe_inserted",
+    "threshold": 1,
+    "icon": "animation_keyed.png"
+  },
+  {
+    "id": "viewport_switch",
+    "name": "View Shuffler",
+    "description": "Switched between different viewports. Getting good here aren't we?",
+    "trigger": "viewport_switch_count",
+    "threshold": 5,
+    "icon": "viewport_switch.png"
+  },
+  {
+    "id": "node_use",
+    "name": "Node Novice",
+    "description": "Added your first shader node. Wow, Very cool.",
+    "trigger": "node_count",
+    "threshold": 1,
+    "icon": "node_use.png"
+  },
+  {
+    "id": "timeline_scrub",
+    "name": "Time Traveler",
+    "description": "Scrubbed the timeline for the first time. Better clean that thing...",
+    "trigger": "timeline_scrubbed",
+    "threshold": 1,
+    "icon": "timeline_scrub.png"
+  },
+  {
+    "id": "uv_edit",
+    "name": "UV You Too",
+    "description": "Entered UV editing workspace. It only gets worse from here",
+    "trigger": "uv_edit_workspace",
+    "threshold": 1,
+    "icon": "uv_edit.png"
+  },
+  {
+    "id": "delete_100_cubes",
+    "name": "Cube Destroyer",
+    "description": "Deleted 100 default cubes, How MANY MORE Must be deleted :,(",
+    "trigger": "delete_cube",
+    "count_required": 100,
+    "icon": "MESH_CUBE"
+  },
+  {
+    "id": "delete_10_cubes",
+    "name": "Cube Murderer",
+    "description": "Deleted 10 Cubes, Dear god you're evil"
+    "trigger": "delete_cube",
+    "count_required": 10,
+    "icon": "MESH_CUBE"
+  },
+  {
+    "id": "delete_cube",
+    "name": "Get outta here",
+    "description": "Deleted your first cube, More will come..."
+    "trigger": "delete_cube",
+    "count_required": 10,
+    "icon": "MESH_CUBE"
+  }
+]
