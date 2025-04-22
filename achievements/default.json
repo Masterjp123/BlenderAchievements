@@ -45,7 +45,7 @@
     "description": "Reach 10,000,000 vertices in a scene. OK! Haha Very funny... Now please delete it...",
     "trigger": "vertex_count",
     "threshold": 10000000,
-    "icon": "vertex_milestone_3.png"
+    "icon": "vertex_milestone_4.png"
   },
   {
     "id": "vertex_milestone_5",
@@ -53,7 +53,7 @@
     "description": "Reach 100,000,000 vertices in a scene. H- How...",
     "trigger": "vertex_count",
     "threshold": 100000000,
-    "icon": "vertex_milestone_3.png"
+    "icon": "vertex_milestone_5.png"
   },
   {
     "id": "save_project",
@@ -144,12 +144,12 @@
     "icon": "uv_edit.png"
   },
   {
-    "id": "delete_100_cubes",
-    "name": "Cube Destroyer",
-    "description": "Deleted 100 default cubes, How MANY MORE Must be deleted :,(",
+    "id": "delete_cube",
+    "name": "Get outta here",
+    "description": "Deleted your first cube, More will come..."
     "trigger": "delete_cube",
-    "count_required": 100,
-    "icon": "MESH_CUBE"
+    "count_required": 1,
+    "icon": "dead_cube-1.png"
   },
   {
     "id": "delete_10_cubes",
@@ -157,14 +157,30 @@
     "description": "Deleted 10 Cubes, Dear god you're evil"
     "trigger": "delete_cube",
     "count_required": 10,
-    "icon": "MESH_CUBE"
+    "icon": "dead_cube-2.png"
   },
   {
-    "id": "delete_cube",
-    "name": "Get outta here",
-    "description": "Deleted your first cube, More will come..."
+    "id": "delete_100_cubes",
+    "name": "Cube Destroyer",
+    "description": "Deleted 100 default cubes, How MANY MORE Must be deleted :,(",
     "trigger": "delete_cube",
-    "count_required": 10,
-    "icon": "MESH_CUBE"
-  }
+    "count_required": 100,
+    "icon": "dead_cube-3.png"
+  },
+  {
+    "id": "delete_1000_cubes",
+    "name": "Cube Destroyer",
+    "description": "Deleted 1000 default cubes, P- Please t- these cubes t- they have families...",
+    "trigger": "delete_cube",
+    "count_required": 1000,
+    "icon": "dead_cube-4.png"
+  },
+  {
+    "id": "delete_1000000_cubes",
+    "name": "Cube Destroyer",
+    "description": "Deleted 1 000 000 default cubes, Y- You killed them all... Y- You really did...",
+    "trigger": "delete_cube",
+    "count_required": 1000000,
+    "icon": "dead_cube-5.png"
+  },
 ]
