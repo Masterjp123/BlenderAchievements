@@ -1,4 +1,4 @@
-# Currently the Extendsion DOESN'T work because it is actibely being worked on! All Contributions are welcome! :)
+# Currently the Extendsion DOESN'T work because it is actively being worked on! All Contributions are welcome! :)
 
 # 🏆 Blender Achievements Add-on
 
