@@ -1,1 +1,8 @@
-
+{
+  "id": "your_unique_id",
+  "name": "Cool Achievement",
+  "description": "What this achievement is about.",
+  "trigger": "vertex_count | render_count | save_count | object_created | etc",
+  "threshold": 100,
+  "icon": "your_icon_name.png"
+}
